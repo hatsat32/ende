@@ -14,8 +14,7 @@ var encodeall bool
 var enurlCmd = &cobra.Command{
 	Use:   "enurl",
 	Short: "URL encode given input",
-
-	Run: enurlCmdRun,
+	Run:   enurlCmdRun,
 }
 
 func enurlCmdRun(cmd *cobra.Command, args []string) {
