@@ -8,8 +8,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var encodeall bool
-
 // enurlCmd represents the enurl command
 var enurlCmd = &cobra.Command{
 	Use:   "enurl",
@@ -18,11 +16,9 @@ var enurlCmd = &cobra.Command{
 }
 
 func enurlCmdRun(cmd *cobra.Command, args []string) {
-	println(encodeall)
 	fmt.Println(url.QueryEscape(strings.Join(args, " ")))
 }
 
 func init() {
 	rootCmd.AddCommand(enurlCmd)
-	enurlCmd.Flags().BoolVarP(&encodeall, "all", "a", false, "Encode all")
 }
