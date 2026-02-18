@@ -1,4 +1,4 @@
-module ende
+module github.com/hatsat32/ende
 
 go 1.25.7
 

@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/url"
 
-	"ende/internal/cli"
+	"github.com/hatsat32/ende/internal/cli"
 
 	"github.com/spf13/cobra"
 )

@@ -22,6 +22,7 @@ tests/
 Go 1.21+ (Standard modern Go): Follow standard conventions
 
 ## Recent Changes
+- 002-rename-module: Added [if applicable, e.g., PostgreSQL, CoreData, files or N/A]
 
 - 001-cli-codecs: Added Go 1.21+ (Standard modern Go)
 
