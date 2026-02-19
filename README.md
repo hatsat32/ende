@@ -12,7 +12,7 @@ A simple, Unix-compliant CLI tool for encoding and decoding data streams.
 ## Installation
 
 ```bash
-go install github.com/hatsat32/ende@latest
+go install github.com/hatsat32/ende/cmd/ende@latest
 ```
 
 ## Usage

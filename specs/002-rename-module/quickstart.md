@@ -9,7 +9,7 @@
 No change in usage.
 
 ```bash
-go install github.com/hatsat32/ende@latest
+go install github.com/hatsat32/ende/cmd/ende@latest
 ```
 
 ### For Developers (Importing)
